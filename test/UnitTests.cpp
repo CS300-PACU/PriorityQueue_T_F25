@@ -1,6 +1,5 @@
 #include <gtest/gtest.h>
 
-#include "../include/placeholder.h"
 
 TEST (TestSuite, FirstTest) {
 

@@ -16,11 +16,11 @@ enable_testing()
 add_subdirectory(googletest)
 
 set (Headers
-    include/placeholder.h
+    include/pqueue.h
 )
 
 set (Sources
-    src/main.cpp
+    src/pqueue.c
 )
 
 add_library(${This} STATIC ${Sources} ${Headers})
